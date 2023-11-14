@@ -20,7 +20,7 @@ const PhysiotherapistCardList = () => {
         location: 'Dhanmondi, Dhaka, Bangladesh',
         availability: 'Mon, 22 December',
         cost: '$15',
-        profileUrl: [dc2],
+        profileUrl: [dc3],
       },
       {
         name: 'Karyen Anderson',
@@ -28,7 +28,7 @@ const PhysiotherapistCardList = () => {
         location: 'Dhanmondi, Dhaka, Bangladesh',
         availability: 'Mon, 22 December',
         cost: '$15',
-        profileUrl: [dc3],
+        profileUrl: [dc2],
       },
     
   ];
