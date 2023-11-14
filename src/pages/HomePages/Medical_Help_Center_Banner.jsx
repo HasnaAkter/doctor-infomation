@@ -10,10 +10,16 @@ const Medical_Help_Center_Banner = () => {
             <h1 className="text-4xl font-semibold">
               Your Best Medical Help Center
             </h1>{" "}
-            <p>
+            <p className="py-3">
               Lorem Ipsum is simply dummy text they are printing typesetting has
               been the industry’s stardard.
             </p>
+            <div className="py-3">
+                {" "}
+                <button className="btn btn-outline  bg-warning text-white">
+                  All Services
+                </button>
+              </div>{" "}
           </div>
         </div>
         <div>

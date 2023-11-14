@@ -1,0 +1,11 @@
+.review-card {
+    border: 2px solid #ddd; /* Adjust the border color and thickness as needed */
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .review-card h3 {
+    margin-bottom: 8px;
+  }
+  

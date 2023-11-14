@@ -1,0 +1,29 @@
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px; 
+    margin: 0 auto;
+  }
+  
+  .card {
+  background:rgba(7, 51, 47, 1);
+    border: 1px solid #ddd;
+    padding: 16px;
+    color:white;
+    text-align: center;
+    width: 30%; 
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    margin-top: 16px;
+  }
+
+
+  .card:nth-child(2) {
+    background-color: rgba(247, 165, 130, 1); /* Adjust the color as needed */
+  }
