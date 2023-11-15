@@ -14,7 +14,7 @@ const Home = () => {
       <Services></Services>
       <br />
       <br />
-      <ContactSection></ContactSection>
+      {/* <ContactSection></ContactSection> */}
       <br />
       <br />
       <PatientsSays></PatientsSays>
@@ -26,7 +26,7 @@ const Home = () => {
       <ExpertDoctors></ExpertDoctors>
       <br />
       <br />
-      <PhysiotherapistCardList></PhysiotherapistCardList>
+      {/* <PhysiotherapistCardList></PhysiotherapistCardList> */}
     </div>
   );
 };
