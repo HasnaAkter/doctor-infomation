@@ -3,8 +3,8 @@ import helpbanner from "../../assets/Homepages/helpbanner.jpg";
 
 const Medical_Help_Center_Banner = () => {
   return (
-    <div>
-      <div className="grid gap-4 grid-cols-2 my-5">
+    <div className="">
+      <div className="grid gap-4 grid-cols-2 my-5 p-10">
         <div>
           <div className=" my-24">
             <h1 className="text-4xl font-semibold">
