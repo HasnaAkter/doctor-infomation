@@ -5,7 +5,7 @@ import servicesboximg from "../../assets/Homepages/services-box.jpg";
 const Services = () => {
   return (
     <div>
-      <div className="grid gap-4 grid-cols-2 my-5 p-10">
+      <div className="grid gap-4 grid-cols-2 my-5 ">
         <img src={servicesimg} alt="" />
 
         <div>
