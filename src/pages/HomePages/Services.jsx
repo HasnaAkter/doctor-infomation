@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import servicesimg from "../../assets/Homepages/services.jpg";
 import servicesboximg from "../../assets/Homepages/services-box.jpg";
 
 const Services = () => {
+  const [showDetails, setShowDetails] = useState(false);
+
+  const toggleDetails = () => {
+    setShowDetails(!showDetails);
+  };
+
   return (
     <div>
       <div className="grid gap-4 grid-cols-2 my-5 ">
@@ -23,7 +29,7 @@ const Services = () => {
                   <button className="btn bg-yellow-600 btn-gray-300">
                     Cavity Protection
                   </button>
-                  <button className="btn">Cosmetic Dentisty</button>
+                  <button className="btn">Cosmetic Dentistry</button>
                   <button className="btn">Oral Surgery</button>
                 </div>
               </div>
@@ -43,10 +49,24 @@ const Services = () => {
                 aperiam, eaque ipsa quae ab illo inve ntore veritatis et quasi
                 architecto beatae vitae dicta sunt explicabo.F
               </p>
+              {showDetails && (
+                <>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam dolorum totam dicta enim consectetur dolore harum
+                    earum exercitationem, molestiae aliquid assumenda eaque
+                    quisquam neque voluptate distinctio autem voluptatem
+                    quibusdam illo?
+                  </p>
+                </>
+              )}
               <div className="py-3">
                 {" "}
-                <button className="btn btn-outline btn-warning ">
-                  More Details
+                <button
+                  className="btn btn-outline btn-warning "
+                  onClick={toggleDetails}
+                >
+                  {showDetails ? "Hide Details" : "More Details"}
                 </button>
               </div>{" "}
             </div>
