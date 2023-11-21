@@ -6,6 +6,7 @@ import PatientsSays from "../HomePages/PatientsSays";
 import ExpertDoctors from "../HomePages/ExpertDoctors";
 import Carousel from "../HomePages/Carousel";
 import PhysiotherapistCardList from "../HomePages/PhysiotherapistCardList";
+import BookingForm from "../HomePages/BookingForm";
 
 const Home = () => {
   return (
@@ -27,6 +28,11 @@ const Home = () => {
       <br />
       <br />
        <PhysiotherapistCardList></PhysiotherapistCardList> 
+       <br />
+       <br />
+       <BookingForm></BookingForm>
+       <br />
+       <br />
     </div>
   );
 };
