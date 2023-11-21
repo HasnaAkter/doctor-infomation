@@ -4,7 +4,6 @@ import dc1 from "../../assets/Homepages/dc1.jpg";
 import dc2 from "../../assets/Homepages/dc2.png";
 import dc3 from "../../assets/Homepages/dc3.png";
 
-
 const PhysiotherapistCardList = () => {
   const physiotherapists = [
     {
@@ -38,12 +37,10 @@ const PhysiotherapistCardList = () => {
       availability: "Mon, 22 December",
       cost: "$15",
       profileUrl: [dc2],
-      urlimg:[dc2],
       employName: "Karyen Anderson",
       employDegicnation: "BTP - Senior Physiotherapist",
       employDetiels:
         "I am dedicated to helping individuals regain their mobility and improve their quality of life. With a strong background in orthopedic and sports injuries, I specialize in creating personalized rehabilitation plans. My goal is to empower patients to achieve their optimal physical health.",
-      
     },
   ];
 

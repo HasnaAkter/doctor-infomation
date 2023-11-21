@@ -49,7 +49,7 @@ const PhysiotherapistCard = ({
         </button>
         <dialog id="my_modal_1" className="modal" aria-labelledby="modal-label">
           <div className="modal-box">
-          <img src={urlimg} alt={employName} className="card-image" />
+            <img src={profileUrl} alt={name} className="card-image" />
             <h3 className="font-bold text-lg">{employName}</h3>
             <h3 className="font-medium text-lg">{employDegicnation}</h3>
             <p className="py-4">{employDetiels}</p>
