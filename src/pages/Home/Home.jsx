@@ -26,7 +26,7 @@ const Home = () => {
       <ExpertDoctors></ExpertDoctors>
       <br />
       <br />
-      {/* <PhysiotherapistCardList></PhysiotherapistCardList> */}
+       <PhysiotherapistCardList></PhysiotherapistCardList> 
     </div>
   );
 };

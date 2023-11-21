@@ -35,7 +35,7 @@ const PhysiotherapistCardList = () => {
 
   return (
     <div>
-      <div className="card-list">
+      <div className="card-list ">
         {physiotherapists.map((physiotherapist, index) => (
           <PhysiotherapistCard key={index} {...physiotherapist} />
         ))}
